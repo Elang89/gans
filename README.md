@@ -30,3 +30,11 @@ These are trained on the [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) 
 <img src=".images/dcgan_cifar_pt_raw.png" width="300"> <img src=".images/dcgan_cifar_pt.png" width="300">
 
 __CIFAR-like generated images before & after training.__
+
+# Running this fork
+
+In order to run this fork please install the following packages: 
+
+'''
+pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+'''
